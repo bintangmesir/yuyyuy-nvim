@@ -1,0 +1,40 @@
+set nocompatible
+set encoding=utf-8
+set fileencoding=utf-8
+set number
+set relativenumber
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+set smartindent
+set nowrap
+set smartcase
+set ignorecase
+set incsearch
+set hlsearch
+set hidden
+set nobackup
+set nowritebackup
+set noswapfile
+set termguicolors
+set mouse=a
+set clipboard+=unnamedplus
+set scrolloff=8
+set sidescrolloff=8
+set signcolumn=yes
+set cmdheight=1
+set updatetime=300
+set shortmess+=c
+set colorcolumn=80
+set splitright
+set splitbelow
+set nofoldenable
+set wrap
+set linebreak
+set breakindent
+set showbreak=↪\
+
+tnoremap <Esc> <C-\><C-n>
+
+lua require("init")
